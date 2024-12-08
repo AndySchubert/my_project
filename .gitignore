@@ -23,3 +23,34 @@ dist/
 
 # environment variables
 .env
+
+# Rust-specific
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# dfx-specific
+/.dfx/
+/canister_ids.json
+*.wasm
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Frontend-specific (if applicable)
+node_modules/
+/dist/
+/out/
+/build/
+.env
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+Desktop.ini
